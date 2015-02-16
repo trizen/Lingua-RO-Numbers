@@ -1,0 +1,28 @@
+---
+abstract: 'Convert numeric values into their Romanian string equivalents and viceversa'
+author:
+  - 'Daniel "Trizen" Șuteu <trizenx@gmail.com>'
+build_requires:
+  Test::More: '0'
+configure_requires:
+  Module::Build: '0'
+dynamic_config: 1
+generated_by: 'Module::Build version 0.4211, CPAN::Meta::Converter version 2.143240'
+license: perl
+meta-spec:
+  url: http://module-build.sourceforge.net/META-spec-v1.4.html
+  version: '1.4'
+name: Lingua-RO-Numbers
+provides:
+  Lingua::RO::Numbers:
+    file: lib/Lingua/RO/Numbers.pm
+    version: '0.20'
+requires:
+  Encode: '0'
+  perl: '5.006'
+  strict: '0'
+  utf8: '0'
+  warnings: '0'
+resources:
+  license: http://dev.perl.org/licenses/
+version: '0.20'
