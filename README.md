@@ -2,7 +2,7 @@
 
 Converts numeric values into their Romanian string equivalents and the other way around.
 
-INSTALLATION
+### INSTALLATION
 
 To install this module, run the following commands:
 
@@ -11,7 +11,7 @@ To install this module, run the following commands:
     ./Build test
     ./Build install
 
-SUPPORT AND DOCUMENTATION
+### SUPPORT AND DOCUMENTATION
 
 After installing, you can find documentation for this module with the
 perldoc command.
@@ -33,7 +33,7 @@ You can also look for information at:
         http://search.cpan.org/dist/Lingua-RO-Numbers/
 
 
-LICENSE AND COPYRIGHT
+### LICENSE AND COPYRIGHT
 
 Copyright (C) 2013-2015 Daniel "Trizen" Șuteu
 
