@@ -50,7 +50,7 @@ our %WORDS;
 @WORDS{qw(unspe doispe treispe paispe cinspe cinsprezece saispe saptespe saptuspe optspe nouaspe)} =
   (11, 12, 13, 14, 15, 15, 16, 17, 17, 18, 19);
 
-# This array contains number greater than 1000 and it's used to convert numbers into text
+# This array contains number greater than 99 and it's used to convert numbers into text
 our @BIGNUMS = (
                 {num => 10**2,  sg => 'suta',        pl => 'sute', fem => 1},
                 {num => 10**3,  sg => 'mie',         pl => 'mii',  fem => 1},
