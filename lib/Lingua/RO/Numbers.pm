@@ -551,16 +551,13 @@ L<http://search.cpan.org/dist/Lingua-RO-Numbers/>
 
 =back
 
-
 =head1 REPOSITORY
 
 L<https://github.com/trizen/Lingua-RO-Numbers>
 
-
 =head1 ACKNOWLEDGEMENTS
 
-    http://ro.wikipedia.org/wiki/Sistem_zecimal#Denumiri_ale_numerelor
-
+L<http://ro.wikipedia.org/wiki/Sistem_zecimal#Denumiri_ale_numerelor>
 
 =head1 LICENSE AND COPYRIGHT
 
