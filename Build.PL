@@ -20,12 +20,17 @@ my $builder = Module::Build->new(
     build_requires => {
                        'Test::More' => 0,
                       },
+    meta_merge => {
+                   resources => {
+                                 repository => 'https://github.com/trizen/Lingua-RO-Numbers'
+                                }
+                  },
     requires => {
                  'perl'     => 5.006,
                  'utf8'     => 0,
                  'strict'   => 0,
                  'warnings' => 0,
-         'Encode'   => 0,
+                 'Encode'   => 0,
                 },
     add_to_cleanup     => ['Lingua-RO-Numbers-*'],
     create_makefile_pl => 'traditional',
