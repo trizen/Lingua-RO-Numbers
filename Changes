@@ -1,23 +1,27 @@
 Revision history for Lingua-RO-Numbers
 
+0.21    2017-01-10
+        - Changed the license from `perl` to `artistic_2`.
+        - Other meta changes.
+
 0.20    2015-01-15
         - Minor fix for numbers greater than 10**27 (now they are reported correctly)
 
-0.19    2014-27-11
+0.19    2014-11-27
         - Fixed a bug for string numbers like '8.0' (now returns 'opt' instead of undef)
         - Fixed bug for infinity; now it is returned correctly.
 
-0.18    2014-25-07
+0.18    2014-07-25
         - Text for ro_to_number() is now UTF-8 decoded.
         - Fixed an infinite loop for text like "unu virgula zero"
 
-0.17    2014-29-06
+0.17    2014-06-29
         - POD fixes.
 
-0.16    2014-20-06
+0.16    2014-06-20
         - Added the ro_to_number() function which converts a Romanian text into its numeric value.
 
-0.15    2013-11-05
+0.15    2013-05-01
         - Bug-fix: the 'thousands_separator' string should not be added at the end of a number.
 
 0.14    2013-06-23

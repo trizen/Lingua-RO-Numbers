@@ -16,15 +16,15 @@ our @EXPORT_OK = qw(number_to_ro ro_to_number);
 
 =head1 NAME
 
-Lingua::RO::Numbers - Converts numeric values into their Romanian string equivalents
+Lingua::RO::Numbers - Convert numeric values into their Romanian string equivalents and viceversa
 
 =head1 VERSION
 
-Version 0.20
+Version 0.21
 
 =cut
 
-our $VERSION = '0.20';
+our $VERSION = '0.21';
 
 # Numbers => text
 our %DIGITS;
@@ -561,7 +561,7 @@ L<http://ro.wikipedia.org/wiki/Sistem_zecimal#Denumiri_ale_numerelor>
 
 =head1 LICENSE AND COPYRIGHT
 
-Copyright 2013-2015 Daniel "Trizen" Șuteu.
+Copyright 2013-2017 Daniel "Trizen" Șuteu.
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a

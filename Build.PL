@@ -8,7 +8,7 @@ use Module::Build;
 
 my $builder = Module::Build->new(
     module_name       => 'Lingua::RO::Numbers',
-    license           => 'perl',
+    license           => 'artistic_2',
     dist_author       => q{Daniel "Trizen" Șuteu <trizenx@gmail.com>},
     dist_version_from => 'lib/Lingua/RO/Numbers.pm',
     dist_abstract     => 'Convert numeric values into their Romanian string equivalents and viceversa',

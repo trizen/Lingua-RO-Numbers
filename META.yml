@@ -7,8 +7,8 @@ build_requires:
 configure_requires:
   Module::Build: '0'
 dynamic_config: 1
-generated_by: 'Module::Build version 0.4218, CPAN::Meta::Converter version 2.150005'
-license: perl
+generated_by: 'Module::Build version 0.422, CPAN::Meta::Converter version 2.150010'
+license: artistic_2
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
   version: '1.4'
@@ -16,7 +16,7 @@ name: Lingua-RO-Numbers
 provides:
   Lingua::RO::Numbers:
     file: lib/Lingua/RO/Numbers.pm
-    version: '0.20'
+    version: '0.21'
 requires:
   Encode: '0'
   perl: '5.006'
@@ -24,7 +24,7 @@ requires:
   utf8: '0'
   warnings: '0'
 resources:
-  license: http://dev.perl.org/licenses/
+  license: http://www.perlfoundation.org/artistic_license_2_0
   repository: https://github.com/trizen/Lingua-RO-Numbers
-version: '0.20'
+version: '0.21'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'
