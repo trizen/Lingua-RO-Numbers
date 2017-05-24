@@ -47,8 +47,8 @@ our %WORDS;
 @WORDS{qw(o un doua cin sai ob)} = (1, 1, 2, 5, 6, 8);
 
 # Colocvial
-@WORDS{qw(unspe doispe treispe paispe cinspe cinsprezece saispe saptespe saptuspe optspe nouaspe)} =
-  (11, 12, 13, 14, 15, 15, 16, 17, 17, 18, 19);
+@WORDS{qw(unspe doispe treispe paispe cinspe cinsprezece saispe saptespe saptuspe optspe optuspe nouaspe)} =
+  (11, 12, 13, 14, 15, 15, 16, 17, 17, 18, 18, 19);
 
 # This array contains number greater than 99 and it's used to convert numbers into text
 our @BIGNUMS = (
