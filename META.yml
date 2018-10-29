@@ -16,7 +16,7 @@ name: Lingua-RO-Numbers
 provides:
   Lingua::RO::Numbers:
     file: lib/Lingua/RO/Numbers.pm
-    version: '0.21'
+    version: '0.22'
 requires:
   Encode: '0'
   perl: '5.006'
@@ -26,5 +26,5 @@ requires:
 resources:
   license: http://www.perlfoundation.org/artistic_license_2_0
   repository: https://github.com/trizen/Lingua-RO-Numbers
-version: '0.21'
+version: '0.22'
 x_serialization_backend: 'CPAN::Meta::YAML version 0.018'

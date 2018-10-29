@@ -10,7 +10,7 @@ use Lingua::RO::Numbers qw(number_to_ro ro_to_number);
 
 say number_to_ro(315);
   # prints: 'trei sute cincisprezece'
- 
+
 say ro_to_number('trei sute douazeci si cinci virgula doi');
   # prints: 325.2
 ```
@@ -45,11 +45,11 @@ Converts a number to its Romanian string representation.
 # Functional oriented usage
 $string = number_to_ro($number);
 $string = number_to_ro($number, %opts);
- 
+
 # Object oriented usage
 my $obj = Lingua::RO::Numbers->new(%opts);
 $string = $obj->number_to_ro($number);
- 
+
 # Example:
 print number_to_ro(98_765, thousands_separator => q{,});
   # says: 'nouăzeci și opt de mii, șapte sute șaizeci și cinci'
@@ -63,11 +63,11 @@ Converts a Romanian text into its numeric value.
 # Functional oriented usage
 $number = ro_to_number($text);
 $number = ro_to_number($text, %opts);
- 
+
 # Object oriented usage
 my $obj = Lingua::RO::Numbers->new(%opts);
 $number = $obj->ro_to_number($text);
- 
+
 # Example:
 print ro_to_number('patruzeci si doi');  # says: 42
 ```
@@ -88,24 +88,9 @@ perldoc command.
 
     perldoc Lingua::RO::Numbers
 
-You can also look for information at:
-
-    RT, CPAN's request tracker (report bugs here)
-        http://rt.cpan.org/NoAuth/Bugs.html?Dist=Lingua-RO-Numbers
-
-    AnnoCPAN, Annotated CPAN documentation
-        http://annocpan.org/dist/Lingua-RO-Numbers
-
-    CPAN Ratings
-        http://cpanratings.perl.org/d/Lingua-RO-Numbers
-
-    Search CPAN
-        http://search.cpan.org/dist/Lingua-RO-Numbers/
-
-
 ### LICENSE AND COPYRIGHT
 
-Copyright (C) 2013-2017 Daniel "Trizen" Șuteu
+Copyright (C) 2013-2018 Daniel "Trizen" Șuteu
 
 This program is free software; you can redistribute it and/or modify it
 under the terms of the the Artistic License (2.0). You may obtain a
