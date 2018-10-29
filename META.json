@@ -4,7 +4,7 @@
       "Daniel \"Trizen\" Șuteu <trizenx@gmail.com>"
    ],
    "dynamic_config" : 1,
-   "generated_by" : "Module::Build version 0.4222",
+   "generated_by" : "Module::Build version 0.4224",
    "license" : [
       "artistic_2"
    ],
@@ -50,5 +50,5 @@
       }
    },
    "version" : "0.21",
-   "x_serialization_backend" : "JSON::PP version 2.93"
+   "x_serialization_backend" : "JSON::PP version 2.97001"
 }
