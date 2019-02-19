@@ -1,7 +1,7 @@
 ---
 abstract: 'Convert numeric values into their Romanian string equivalents and viceversa'
 author:
-  - 'Daniel "Trizen" Șuteu <trizenx@gmail.com>'
+  - 'Daniel Șuteu <trizen@cpan.org>'
 build_requires:
   Test::More: '0'
 configure_requires:
