@@ -39,7 +39,7 @@ our %DIGITS;
   șaptesprezece
   optsprezece
   nouăsprezece
-  );
+);
 
 # Text => numbers
 our %WORDS;
@@ -47,8 +47,7 @@ our %WORDS;
 @WORDS{qw(o un doua cin sai ob)} = (1, 1, 2, 5, 6, 8);
 
 # Colocvial
-@WORDS{qw(unspe doispe treispe paispe cinspe cinsprezece saispe saptespe saptuspe optspe optuspe nouaspe)} =
-  (11, 12, 13, 14, 15, 15, 16, 17, 17, 18, 18, 19);
+@WORDS{qw(unspe doispe treispe paispe cinspe cinsprezece saispe saptespe saptuspe optspe optuspe nouaspe)} = (11, 12, 13, 14, 15, 15, 16, 17, 17, 18, 18, 19);
 
 # This array contains number greater than 99 and it's used to convert numbers into text
 our @BIGNUMS = (
@@ -209,10 +208,10 @@ sub ro_to_number {
     }
 
     (    # Decode the text unless it is already UTF-8
-       $] >= 5.0080001 ? utf8::is_utf8($text) : do {
-           require Encode;
-           Encode::is_utf8($text);
-         }
+      $] >= 5.0080001 ? utf8::is_utf8($text) : do {
+          require Encode;
+          Encode::is_utf8($text);
+      }
     )
       || do {
         require Encode;
@@ -456,13 +455,13 @@ sub _number_to_ro {
 
             until ($number == int($number)) {
                 $number *= 10;
-                $number = sprintf('%.*f', --$l, $number);         # because of imprecise multiplication
+                $number = sprintf('%.*f', --$l, $number);    # because of imprecise multiplication
                 push @words, $DIGITS{0} if $number < 1;
             }
             push @words, $self->_number_to_ro(int $number);
         }
     }
-    elsif ($number >= $BIGNUMS[0]{num}) {                         # i.e.: >= 100
+    elsif ($number >= $BIGNUMS[0]{num}) {    # i.e.: >= 100
         foreach my $i (0 .. $#BIGNUMS - 1) {
             my $j = $#BIGNUMS - $i;
 
@@ -501,8 +500,7 @@ sub _number_to_ro {
     }
     elsif ($number > 19 && $number < 100) {    # example: 42
         my $cat = int $number / 10;
-        push @words, ($cat == 2 ? 'două' : $cat == 6 ? 'șai' : $DIGITS{$cat}) . 'zeci',
-          ($number % 10 != 0 ? ('și', $DIGITS{$number % 10}) : ());
+        push @words, ($cat == 2 ? 'două' : $cat == 6 ? 'șai' : $DIGITS{$cat}) . 'zeci', ($number % 10 != 0 ? ('și', $DIGITS{$number % 10}) : ());
     }
     else {                                     # doesn't look like a number
         return $self->{invalid_number};
@@ -513,7 +511,7 @@ sub _number_to_ro {
 
 =head1 AUTHOR
 
-Daniel Șuteu, C<< <trizen at protonmail.com> >>
+Daniel Șuteu, C<< <trizen at cpan.org> >>
 
 =head1 SUPPORT
 
