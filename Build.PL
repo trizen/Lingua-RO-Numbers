@@ -30,7 +30,7 @@ my $builder = Module::Build->new(
                                 }
                   },
     requires => {
-                 'perl'     => 5.006,
+                 'perl'     => 5.0080001,
                  'utf8'     => 0,
                  'strict'   => 0,
                  'warnings' => 0,
